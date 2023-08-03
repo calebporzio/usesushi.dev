@@ -11,6 +11,7 @@ export default {
             },
             fontFamily: {
                 poppins: ['Poppins', ...fontFamily.serif],
+                'fira-code': ['Fira Code Variable', ...fontFamily.serif],
             },
         },
     },
