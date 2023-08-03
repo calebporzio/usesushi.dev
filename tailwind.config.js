@@ -7,6 +7,7 @@ export default {
         extend: {
             colors: {
                 shark: '#6B6B78',
+                wasabi: '#C1EE8F',
             },
             fontFamily: {
                 poppins: ['Poppins', ...fontFamily.serif],

@@ -22,8 +22,9 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body
-        class="overflow-x-hidden bg-[#FFF0E7] font-poppins text-stone-900 antialiased selection:bg-stone-500/10"
+        class="overflow-x-hidden bg-[#FFF0E7] font-poppins text-stone-900 antialiased selection:bg-stone-500/10 pb-10"
     >
         <x-hero />
+        <x-quick-start />
     </body>
 </html>
