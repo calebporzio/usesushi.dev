@@ -107,6 +107,59 @@
                     class="w-28 transition duration-300 group-hover/try-button:-translate-y-0.5 group-hover/try-button:scale-105"
                 />
             </div>
+
+            {{-- Sushi Steam --}}
+            <div
+                x-data
+                x-cloak
+                x-ref="steam"
+                x-init="
+                    () => {
+                        gsap.timeline().to($refs.steam, {
+                            keyframes: {
+                                y: [0, -20],
+                                x: [0, 5, 0],
+                                autoAlpha: [0, 1, 0],
+                            },
+                            duration: 3,
+                            repeat: -1,
+                        })
+                    }
+                "
+                class="absolute -top-12 right-[2.2rem]"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                >
+                    <g clip-path="url(#clip0_62_320)">
+                        <path
+                            d="M14.4791 14.5342C20.6611 9.17622 16.4535 2.58186 16.4535 2.58186C16.4535 2.58186 15.8864 7.68205 11.5209 11.4658C5.33897 16.8238 9.54654 23.4181 9.54654 23.4181C9.54654 23.4181 10.1136 18.318 14.4791 14.5342Z"
+                            fill="#E8D3BF"
+                        />
+                        <path
+                            d="M20.4744 18.6294C25.6033 14.1841 22.1125 8.71306 22.1125 8.71306C22.1125 8.71306 21.6421 12.9445 18.0202 16.0837C12.8913 20.529 16.3821 26 16.3821 26C16.3821 26 16.8526 21.7686 20.4744 18.6294Z"
+                            fill="#E8D3BF"
+                        />
+                        <path
+                            d="M7.97987 9.91634C13.1087 5.47106 9.61793 0 9.61793 0C9.61793 0 9.14749 4.2314 5.52559 7.3706C0.396664 11.8159 3.88753 17.2869 3.88753 17.2869C3.88753 17.2869 4.35797 13.0555 7.97987 9.91634Z"
+                            fill="#E8D3BF"
+                        />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_62_320">
+                            <rect
+                                width="26"
+                                height="26"
+                                fill="white"
+                            />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
         </a>
     </div>
 </section>
