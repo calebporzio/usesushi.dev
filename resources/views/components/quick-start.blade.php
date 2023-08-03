@@ -1,6 +1,17 @@
 <section
     x-cloak
     x-data
+    x-ref="section"
+    x-init="
+        () => {
+            gsap.fromTo($refs.section, {
+                autoAlpha: 0,
+            }, {
+                autoAlpha: 1,
+                duration: 0.7,
+            })
+        }
+    "
     class="relative mx-auto w-full max-w-2xl px-5 pt-36"
 >
     {{-- Header --}}

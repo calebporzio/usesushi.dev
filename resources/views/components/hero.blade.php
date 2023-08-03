@@ -1,6 +1,17 @@
 <section
     x-cloak
     x-data
+    x-ref="section"
+    x-init="
+        () => {
+            gsap.fromTo($refs.section, {
+                autoAlpha: 0,
+            }, {
+                autoAlpha: 1,
+                duration: 0.7,
+            })
+        }
+    "
     class="relative mx-auto w-full max-w-4xl px-5"
 >
     {{-- Sushi Logo --}}
@@ -35,9 +46,7 @@
     </div>
 
     {{-- Sushi Plate --}}
-    <div
-        class="grid place-items-center pt-24"
-    >
+    <div class="grid place-items-center pt-24">
         <img
             src="{{ Vite::asset('resources/images/sushi-plate.webp') }}"
             alt=""
@@ -48,7 +57,7 @@
     {{-- Links --}}
     <div
         x-ref="leafTrigger"
-        class="mx-auto flex max-w-3xl flex-col items-center gap-20 pt-14 px-5 sm:flex-row sm:gap-10"
+        class="mx-auto flex max-w-3xl flex-col items-center gap-20 px-5 pt-14 sm:flex-row sm:gap-10"
     >
         {{-- Caleb --}}
         <div class="group/caleb flex items-center gap-4">
@@ -188,7 +197,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -left-10 xl:-left-44 top-20"
+        class="absolute -left-10 top-20 hidden lg:block xl:-left-44"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
@@ -212,7 +221,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block left-0 xl:-left-28 top-80"
+        class="absolute left-0 top-80 hidden lg:block xl:-left-28"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
@@ -236,7 +245,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -left-16 xl:-left-40 bottom-20"
+        class="absolute -left-16 bottom-20 hidden lg:block xl:-left-40"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
@@ -260,7 +269,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -right-10 xl:-right-28 top-20"
+        class="absolute -right-10 top-20 hidden lg:block xl:-right-28"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
@@ -284,7 +293,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -right-24 xl:-right-44 top-80"
+        class="absolute -right-24 top-80 hidden lg:block xl:-right-44"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
@@ -308,7 +317,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -right-14 xl:-right-32 bottom-20"
+        class="absolute -right-14 bottom-20 hidden lg:block xl:-right-32"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
