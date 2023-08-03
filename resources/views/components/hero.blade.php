@@ -36,7 +36,6 @@
 
     {{-- Sushi Plate --}}
     <div
-        x-ref="leafTrigger"
         class="grid place-items-center pt-24"
     >
         <img
@@ -48,6 +47,7 @@
 
     {{-- Links --}}
     <div
+        x-ref="leafTrigger"
         class="mx-auto flex max-w-3xl flex-col items-center gap-20 pt-14 px-5 sm:flex-row sm:gap-10"
     >
         {{-- Caleb --}}
@@ -188,7 +188,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -left-44 top-20"
+        class="absolute hidden lg:block -left-10 xl:-left-44 top-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
@@ -212,7 +212,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -left-28 top-80"
+        class="absolute hidden lg:block left-0 xl:-left-28 top-80"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
@@ -228,7 +228,7 @@
         x-init="
             () => {
                 gsap.to($refs.leaf, {
-                    yPercent: 80,
+                    yPercent: 200,
                     scrollTrigger: {
                         trigger: $refs.leafTrigger,
                         scrub: 1.5,
@@ -236,7 +236,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -left-40 bottom-20"
+        class="absolute hidden lg:block -left-16 xl:-left-40 bottom-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
@@ -260,7 +260,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -right-28 top-20"
+        class="absolute hidden lg:block -right-10 xl:-right-28 top-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
@@ -284,7 +284,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -right-44 top-80"
+        class="absolute hidden lg:block -right-24 xl:-right-44 top-80"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
@@ -300,7 +300,7 @@
         x-init="
             () => {
                 gsap.to($refs.leaf, {
-                    yPercent: 80,
+                    yPercent: 200,
                     scrollTrigger: {
                         trigger: $refs.leafTrigger,
                         scrub: 2,
@@ -308,7 +308,7 @@
                 })
             }
         "
-        class="absolute hidden lg:block -right-32 bottom-20"
+        class="absolute hidden lg:block -right-14 xl:-right-32 bottom-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
