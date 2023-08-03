@@ -3,28 +3,28 @@
     <div class="grid place-items-center pt-10">
         <div class="grid w-72">
             <div
-                class="relative -right-7 -top-1.5 self-start justify-self-end [grid-area:1/-1]"
+                class="relative -right-5 -top-1.5 self-start justify-self-end [grid-area:1/-1] sm:-right-7"
             >
                 <x-assets.rice-piece />
             </div>
             <div
-                class="relative -right-10 top-5 rotate-[40deg] scale-[.8] self-start justify-self-end [grid-area:1/-1]"
+                class="relative -right-8 top-5 rotate-[40deg] scale-[.8] self-start justify-self-end [grid-area:1/-1] sm:-right-10"
             >
                 <x-assets.rice-piece />
             </div>
-            <x-assets.sushi-title />
+            <div class="scale-90 sm:scale-100"><x-assets.sushi-title /></div>
         </div>
     </div>
 
     {{-- Header --}}
     <div class="pt-14 text-center">
-        <header class="text-4xl">
-            <strong>Eloquent</strong>
-            ’s missing “
-            <strong>array</strong>
-            ” driver.
+        <header class="text-3xl sm:text-4xl">
+            <strong>Eloquent’s</strong>
+            <span>missing</span>
+            <strong>“array”</strong>
+            <span>driver.</span>
         </header>
-        <div class="pt-5 text-xl font-medium text-shark">
+        <div class="pt-5 text-lg font-medium text-shark sm:text-xl">
             Sometimes you want to use Eloquent, but without dealing with a
             database.
         </div>
@@ -40,7 +40,9 @@
     </div>
 
     {{-- Links --}}
-    <div class="mx-auto flex max-w-3xl items-center gap-10 pt-14">
+    <div
+        class="mx-auto flex max-w-3xl flex-col items-center gap-20 pt-14 sm:flex-row sm:gap-10"
+    >
         {{-- Caleb --}}
         <div class="flex items-center gap-4">
             <img
@@ -58,7 +60,9 @@
         </div>
 
         {{-- Divider --}}
-        <div class="h-0.5 flex-1 rounded-full bg-shark/20"></div>
+        <div
+            class="hidden h-0.5 flex-1 rounded-full bg-shark/20 sm:block"
+        ></div>
 
         {{-- Try Button --}}
         <a
