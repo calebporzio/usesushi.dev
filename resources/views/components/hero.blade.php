@@ -48,7 +48,7 @@
 
     {{-- Links --}}
     <div
-        class="mx-auto flex max-w-3xl flex-col items-center gap-20 pt-14 sm:flex-row sm:gap-10"
+        class="mx-auto flex max-w-3xl flex-col items-center gap-20 pt-14 px-5 sm:flex-row sm:gap-10"
     >
         {{-- Caleb --}}
         <div class="group/caleb flex items-center gap-4">
@@ -188,7 +188,7 @@
                 })
             }
         "
-        class="absolute -left-44 top-20"
+        class="absolute hidden lg:block -left-44 top-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
@@ -212,7 +212,7 @@
                 })
             }
         "
-        class="absolute -left-28 top-80"
+        class="absolute hidden lg:block -left-28 top-80"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
@@ -236,7 +236,7 @@
                 })
             }
         "
-        class="absolute -left-40 bottom-20"
+        class="absolute hidden lg:block -left-40 bottom-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
@@ -260,7 +260,7 @@
                 })
             }
         "
-        class="absolute -right-28 top-20"
+        class="absolute hidden lg:block -right-28 top-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
@@ -284,7 +284,7 @@
                 })
             }
         "
-        class="absolute -right-44 top-80"
+        class="absolute hidden lg:block -right-44 top-80"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
@@ -308,7 +308,7 @@
                 })
             }
         "
-        class="absolute -right-32 bottom-20"
+        class="absolute hidden lg:block -right-32 bottom-20"
     >
         <img
             src="{{ Vite::asset('resources/images/leaf-1.webp') }}"

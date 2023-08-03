@@ -1,7 +1,7 @@
 <section
     x-cloak
     x-data
-    class="relative mx-auto w-full max-w-3xl px-5 pt-36"
+    class="relative mx-auto w-full max-w-2xl px-5 pt-36"
 >
     {{-- Header --}}
     <div class="text-center text-3xl font-bold">Quick Start</div>
@@ -24,11 +24,11 @@
             <div class="flex items-stretch gap-5">
                 {{-- Line --}}
                 <div
-                    class="relative left-5 top-1 mt-3 w-10 border-l-[1.5px] border-dashed border-shark/30"
+                    class="shrink-0 relative left-5 top-1 mt-3 w-10 border-l-[1.5px] border-dashed border-shark/30 hidden sm:block"
                 ></div>
 
                 {{-- Content --}}
-                <div class="w-full">
+                <div class="w-full pt-5 sm:pt-0">
                     <div class="text-lg font-medium text-shark">
                         Require the composer package in your Laravel project.
                     </div>
@@ -49,7 +49,7 @@
                             ></div>
                         </div>
                         <div
-                            class="whitespace-pre rounded-bl-lg rounded-br-lg bg-[#1b1e28] p-5 font-fira-code font-medium text-[#a6accd] selection:bg-stone-500/30"
+                            class="sm:whitespace-pre rounded-bl-lg rounded-br-lg bg-[#1b1e28] p-5 font-fira-code font-medium text-[#a6accd] selection:bg-stone-500/30"
                         >composer <span class="text-teal-400">require</span> <span class="text-white/80">calebporzio</span>/sushi</div>
                     </div>
                 </div>
@@ -72,11 +72,11 @@
             <div class="flex items-stretch gap-5">
                 {{-- Line --}}
                 <div
-                    class="relative left-5 top-1 mt-3 w-10 border-l-[1.5px] border-dashed border-shark/30"
+                    class="shrink-0 relative left-5 top-1 mt-3 w-10 border-l-[1.5px] border-dashed border-shark/30 hidden sm:block"
                 ></div>
 
                 {{-- Content --}}
-                <div class="w-full">
+                <div class="w-full pt-5 sm:pt-0">
                     <div class="text-lg font-medium text-shark">
                         Add the Sushi trait to your Eloquent model.
                     </div>
