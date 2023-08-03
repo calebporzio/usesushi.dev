@@ -1,4 +1,8 @@
-<section class="mx-auto w-full max-w-4xl px-5">
+<section
+    x-cloak
+    x-data
+    class="relative mx-auto w-full max-w-4xl px-5"
+>
     {{-- Sushi Logo --}}
     <div class="grid place-items-center pt-10">
         <div class="grid w-72">
@@ -31,7 +35,10 @@
     </div>
 
     {{-- Sushi Plate --}}
-    <div class="grid place-items-center pt-24">
+    <div
+        x-ref="leafTrigger"
+        class="grid place-items-center pt-24"
+    >
         <img
             src="{{ Vite::asset('resources/images/sushi-plate.webp') }}"
             alt=""
@@ -44,11 +51,11 @@
         class="mx-auto flex max-w-3xl flex-col items-center gap-20 pt-14 sm:flex-row sm:gap-10"
     >
         {{-- Caleb --}}
-        <div class="flex items-center gap-4">
+        <div class="group/caleb flex items-center gap-4">
             <img
                 src="{{ Vite::asset('resources/images/caleb-porzio.webp') }}"
                 alt="Caleb Porzio"
-                class="aspect-square w-14 rounded-full"
+                class="aspect-square w-14 rounded-full transition duration-300 group-hover/caleb:scale-110"
             />
             <div class="space-y-1">
                 <div class="text-shark">A project from</div>
@@ -115,14 +122,13 @@
             {{-- Sushi Steam --}}
             <div
                 x-data
-                x-cloak
                 x-ref="steam"
                 x-init="
                     () => {
                         gsap.timeline().to($refs.steam, {
                             keyframes: {
                                 y: [0, -20],
-                                x: [0, 5, 0],
+                                x: [-5, 5, 0],
                                 autoAlpha: [0, 1, 0],
                             },
                             duration: 3,
@@ -165,5 +171,149 @@
                 </svg>
             </div>
         </a>
+    </div>
+
+    {{-- Leaf Top Left --}}
+    <div
+        x-data
+        x-ref="leaf"
+        x-init="
+            () => {
+                gsap.to($refs.leaf, {
+                    yPercent: 100,
+                    scrollTrigger: {
+                        trigger: $refs.leafTrigger,
+                        scrub: 1.5,
+                    },
+                })
+            }
+        "
+        class="absolute -left-44 top-20"
+    >
+        <img
+            src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
+            alt=""
+            class="w-16"
+        />
+    </div>
+
+    {{-- Leaf Middle Left --}}
+    <div
+        x-data
+        x-ref="leaf"
+        x-init="
+            () => {
+                gsap.to($refs.leaf, {
+                    yPercent: 150,
+                    scrollTrigger: {
+                        trigger: $refs.leafTrigger,
+                        scrub: 1.5,
+                    },
+                })
+            }
+        "
+        class="absolute -left-28 top-80"
+    >
+        <img
+            src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
+            alt=""
+            class="w-16 -rotate-12 scale-x-[-1] blur-sm"
+        />
+    </div>
+
+    {{-- Leaf Bottom Left --}}
+    <div
+        x-data
+        x-ref="leaf"
+        x-init="
+            () => {
+                gsap.to($refs.leaf, {
+                    yPercent: 80,
+                    scrollTrigger: {
+                        trigger: $refs.leafTrigger,
+                        scrub: 1.5,
+                    },
+                })
+            }
+        "
+        class="absolute -left-40 bottom-20"
+    >
+        <img
+            src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
+            alt=""
+            class="w-16"
+        />
+    </div>
+
+    {{-- Leaf Top Right --}}
+    <div
+        x-data
+        x-ref="leaf"
+        x-init="
+            () => {
+                gsap.to($refs.leaf, {
+                    yPercent: 100,
+                    scrollTrigger: {
+                        trigger: $refs.leafTrigger,
+                        scrub: 1.5,
+                    },
+                })
+            }
+        "
+        class="absolute -right-28 top-20"
+    >
+        <img
+            src="{{ Vite::asset('resources/images/leaf-3.webp') }}"
+            alt=""
+            class="w-14 blur-sm"
+        />
+    </div>
+
+    {{-- Leaf Middle Right --}}
+    <div
+        x-data
+        x-ref="leaf"
+        x-init="
+            () => {
+                gsap.to($refs.leaf, {
+                    yPercent: 150,
+                    scrollTrigger: {
+                        trigger: $refs.leafTrigger,
+                        scrub: 1.7,
+                    },
+                })
+            }
+        "
+        class="absolute -right-44 top-80"
+    >
+        <img
+            src="{{ Vite::asset('resources/images/leaf-2.webp') }}"
+            alt=""
+            class="w-16 -rotate-12"
+        />
+    </div>
+
+    {{-- Leaf Bottom Right --}}
+    <div
+        x-data
+        x-ref="leaf"
+        x-init="
+            () => {
+                gsap.to($refs.leaf, {
+                    yPercent: 80,
+                    scrollTrigger: {
+                        trigger: $refs.leafTrigger,
+                        scrub: 2,
+                    },
+                })
+            }
+        "
+        class="absolute -right-32 bottom-20"
+    >
+        <img
+            src="{{ Vite::asset('resources/images/leaf-1.webp') }}"
+            alt=""
+            class="w-16"
+        />
     </div>
 </section>
