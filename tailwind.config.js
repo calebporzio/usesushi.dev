@@ -5,9 +5,8 @@ export default {
     content: ['./resources/**/*.{js,blade.php}'],
     theme: {
         extend: {
-            colors: {
-            },
             fontFamily: {
+                poppins: ['Poppins', ...fontFamily.serif],
             },
         },
     },

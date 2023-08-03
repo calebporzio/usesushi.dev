@@ -11,13 +11,13 @@
             content="width=device-width, initial-scale=1"
         />
 
-        <title>Sushi</title>
+        <title>Sushi - Eloquent’s missing “array” driver.</title>
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body
-        class="overflow-x-hidden font-vietnam text-shark antialiased selection:bg-stone-500/10"
+        class="overflow-x-hidden bg-[#FFF0E7] font-poppins text-stone-900 antialiased selection:bg-stone-500/10"
     >
-        <x-home.hero />
+        <x-hero />
     </body>
 </html>
