@@ -11,7 +11,7 @@
             content="width=device-width, initial-scale=1"
         />
 
-        <title>Sushi 🍣 - Eloquent’s missing “array” driver.</title>
+        <title>Sushi - Eloquent’s missing “array” driver.</title>
 
         {{-- Alpine Style --}}
         <style>
