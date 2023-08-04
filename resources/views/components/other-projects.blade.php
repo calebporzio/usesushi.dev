@@ -27,15 +27,23 @@
     <div class="space-y-5 pt-8">
         {{-- Livewire --}}
         <div
-            class="w-full rounded-xl bg-gradient-to-t from-[#10172A] to-[#1E2948] p-8 min-[500px]:p-10"
+            class="relative w-full rounded-xl bg-gradient-to-t from-[#10172A] to-[#1E2948] p-8 min-[500px]:p-10"
         >
+            {{-- Logo --}}
             <div class="relative -left-3">
                 <x-assets.livewire />
             </div>
 
+            {{-- Falling Star --}}
+            <div
+                class="absolute right-5 top-0 scale-75 mix-blend-screen sm:right-12 sm:top-3 sm:scale-100"
+            >
+                <x-assets.falling-star />
+            </div>
+
             {{-- Title --}}
             <div
-                class="max-w-md pt-10 text-xl font-bold text-[#F1F5F9] min-[500px]:text-2xl sm:text-3xl"
+                class="max-w-[26rem] pt-10 text-xl font-bold text-[#F1F5F9] min-[500px]:text-2xl sm:text-3xl"
             >
                 The most productive way to build your next web app
             </div>
