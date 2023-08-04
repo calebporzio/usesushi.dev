@@ -26,5 +26,6 @@
     >
         <x-hero />
         <x-quick-start />
+        <x-other-projects />
     </body>
 </html>
