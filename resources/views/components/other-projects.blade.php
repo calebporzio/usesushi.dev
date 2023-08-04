@@ -27,23 +27,29 @@
     <div class="space-y-5 pt-8">
         {{-- Livewire --}}
         <div
-            class="w-full rounded-xl bg-gradient-to-t from-[#10172A] to-[#1E2948] p-10"
+            class="w-full rounded-xl bg-gradient-to-t from-[#10172A] to-[#1E2948] p-8 min-[500px]:p-10"
         >
             <div class="relative -left-3">
                 <x-assets.livewire />
             </div>
 
             {{-- Title --}}
-            <div class="max-w-md pt-10 text-3xl font-bold text-[#F1F5F9]">
+            <div
+                class="max-w-md pt-10 text-xl font-bold text-[#F1F5F9] min-[500px]:text-2xl sm:text-3xl"
+            >
                 The most productive way to build your next web app
             </div>
 
             {{-- Description --}}
-            <div class="max-w-md pt-3 text-[#94A3B8]">
+            <div
+                class="max-w-md pt-3 text-sm text-[#94A3B8] min-[500px]:text-base"
+            >
                 Powerful, dynamic, front-end UIs without leaving PHP.
             </div>
 
-            <div class="flex items-center justify-between gap-5 pt-10 text-sm">
+            <div
+                class="flex flex-wrap items-center justify-between gap-5 pt-10 text-sm"
+            >
                 <div class="text-[#94A3B8]">+20k Github Stars</div>
                 <a
                     href="https://livewire.laravel.com/"
