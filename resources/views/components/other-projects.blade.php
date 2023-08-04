@@ -100,7 +100,7 @@
             <img
                 src="{{ Vite::asset('resources/images/alpine-sky.webp') }}"
                 alt=""
-                class="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"
+                class="absolute inset-0 -z-10 h-full w-full object-cover opacity-30"
             />
 
             {{-- Logo --}}

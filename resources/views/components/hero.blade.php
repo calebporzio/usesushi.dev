@@ -54,6 +54,8 @@
         <img
             src="{{ Vite::asset('resources/images/sushi-plate.webp') }}"
             alt=""
+            width="384"
+            height="240"
             class="w-96"
         />
     </div>
@@ -89,6 +91,7 @@
                     <a
                         href="https://twitter.com/calebporzio"
                         target="_blank"
+                        aria-label="Twitter"
                         class="grid h-8 w-8 place-items-center rounded-full bg-[#FFDEBD] transition duration-300 will-change-transform hover:scale-110 hover:bg-orange-200"
                     >
                         <svg
@@ -108,6 +111,7 @@
                     <a
                         href="https://github.com/calebporzio"
                         target="_blank"
+                        aria-label="Github"
                         class="grid h-8 w-8 place-items-center rounded-full bg-[#FFDEBD] transition duration-300 will-change-transform hover:scale-110 hover:bg-orange-200"
                     >
                         <svg
