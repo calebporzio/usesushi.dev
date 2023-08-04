@@ -60,23 +60,23 @@
                 <a
                     href="https://livewire.laravel.com/"
                     target="_blank"
-                    class="group/card-link flex items-center gap-1 rounded-lg bg-[#EC5C98] py-3.5 pl-6 pr-4 text-white transition duration-300 hover:bg-pink-500"
+                    class="group/card-link flex items-center gap-1 rounded-lg bg-[#e3538f] py-3.5 pl-6 pr-4 text-white transition duration-200 hover:bg-pink-600"
                 >
                     <div
-                        class="font-medium transition duration-300 group-hover/card-link:-translate-x-1"
+                        class="font-medium transition duration-200 group-hover/card-link:-translate-x-1"
                     >
                         Visit the website
                     </div>
                     <div class="relative -ml-0.5">
                         <div
-                            class="absolute left-0.5 top-1/2 h-0.5 w-2 -translate-y-1/2 translate-x-1 rounded-full bg-white opacity-0 transition duration-300 group-hover/card-link:translate-x-0 group-hover/card-link:opacity-100"
+                            class="absolute left-0.5 top-1/2 h-0.5 w-2 -translate-y-1/2 translate-x-1 rounded-full bg-white opacity-0 transition duration-200 group-hover/card-link:translate-x-0 group-hover/card-link:opacity-100"
                         ></div>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="20"
                             viewBox="0 0 48 48"
-                            class="transition duration-300 group-hover/card-link:translate-x-1"
+                            class="transition duration-200 group-hover/card-link:translate-x-1"
                         >
                             <path
                                 fill="none"
@@ -133,23 +133,23 @@
                 <a
                     href="https://alpinejs.dev/"
                     target="_blank"
-                    class="group/card-link flex items-center gap-1 rounded-lg bg-[#242934] py-3.5 pl-6 pr-4 text-white transition duration-300 hover:bg-slate-800"
+                    class="group/card-link flex items-center gap-1 rounded-lg bg-[#242934] py-3.5 pl-6 pr-4 text-white transition duration-200 hover:bg-zinc-700"
                 >
                     <div
-                        class="font-medium transition duration-300 group-hover/card-link:-translate-x-1"
+                        class="font-medium transition duration-200 group-hover/card-link:-translate-x-1"
                     >
                         Visit the website
                     </div>
                     <div class="relative -ml-0.5">
                         <div
-                            class="absolute left-0.5 top-1/2 h-0.5 w-2 -translate-y-1/2 translate-x-1 rounded-full bg-white opacity-0 transition duration-300 group-hover/card-link:translate-x-0 group-hover/card-link:opacity-100"
+                            class="absolute left-0.5 top-1/2 h-0.5 w-2 -translate-y-1/2 translate-x-1 rounded-full bg-white opacity-0 transition duration-200 group-hover/card-link:translate-x-0 group-hover/card-link:opacity-100"
                         ></div>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="20"
                             viewBox="0 0 48 48"
-                            class="transition duration-300 group-hover/card-link:translate-x-1"
+                            class="transition duration-200 group-hover/card-link:translate-x-1"
                         >
                             <path
                                 fill="none"
