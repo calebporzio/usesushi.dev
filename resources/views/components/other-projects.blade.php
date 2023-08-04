@@ -36,7 +36,7 @@
 
             {{-- Falling Star --}}
             <div
-                class="absolute right-5 top-0 scale-75 mix-blend-screen sm:right-12 sm:top-3 sm:scale-100"
+                class="absolute right-0 top-0 scale-75 mix-blend-screen sm:right-12 sm:top-3 sm:scale-100"
             >
                 <x-assets.falling-star />
             </div>
@@ -49,16 +49,14 @@
             </div>
 
             {{-- Description --}}
-            <div
-                class="max-w-md pt-3 text-sm text-[#94A3B8] min-[500px]:text-base"
-            >
+            <div class="max-w-md pt-3 font-medium text-[#94A3B8]">
                 Powerful, dynamic, front-end UIs without leaving PHP.
             </div>
 
             <div
                 class="flex flex-wrap items-center justify-between gap-5 pt-10 text-sm"
             >
-                <div class="text-[#94A3B8]">+20k Github Stars</div>
+                <div class="font-medium text-[#94A3B8]">+20k Github Stars</div>
                 <a
                     href="https://livewire.laravel.com/"
                     target="_blank"
@@ -116,22 +114,22 @@
 
             {{-- Title --}}
             <div
-                class="max-w-[26rem] pt-10 text-xl font-bold text-[#2D3441] min-[500px]:text-2xl sm:text-3xl"
+                class="max-w-[26rem] pt-10 text-2xl font-bold text-[#2D3441] sm:text-3xl"
             >
-                Simple. Lightweight. Powerful as hell.
+                Simple. Lightweight.
+                <br />
+                Powerful as hell.
             </div>
 
             {{-- Description --}}
-            <div
-                class="max-w-md pt-3 text-sm text-[#6A7790] min-[500px]:text-base"
-            >
+            <div class="max-w-md pt-3 font-medium text-[#6A7790]">
                 Your new, lightweight, JavaScript framework.
             </div>
 
             <div
                 class="flex flex-wrap items-center justify-between gap-5 pt-10 text-sm"
             >
-                <div class="text-[#6A7790]">+24k Github Stars</div>
+                <div class="font-medium text-[#6A7790]">+24k Github Stars</div>
                 <a
                     href="https://alpinejs.dev/"
                     target="_blank"
