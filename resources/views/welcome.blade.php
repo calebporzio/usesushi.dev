@@ -11,7 +11,7 @@
             content="width=device-width, initial-scale=1"
         />
 
-        <title>Sushi - Eloquent’s missing “array” driver.</title>
+        <title>Sushi 🍣 - Eloquent’s missing “array” driver.</title>
 
         {{-- Alpine Style --}}
         <style>
@@ -62,6 +62,32 @@
         <meta
             name="theme-color"
             content="#fff0e7"
+        />
+
+        {{-- OpenGraph --}}
+        <meta
+            property="og:site_name"
+            content="Sushi 🍣"
+        />
+        <meta
+            property="og:type"
+            content="website"
+        />
+        <meta
+            property="og:title"
+            content="Eloquent’s missing “array” driver."
+        />
+        <meta
+            property="og:description"
+            content="Sometimes you want to use Eloquent, but without dealing with a database."
+        />
+        <meta
+            property="og:image"
+            content="/sushi-opengraph.png"
+        />
+        <meta
+            property="og:locale"
+            content="en"
         />
 
         {{-- Vite --}}
