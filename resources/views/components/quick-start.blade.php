@@ -159,7 +159,7 @@
                             ></div>
                         </div>
                         <div
-                            class="whitespace-pre rounded-bl-lg rounded-br-lg bg-[#1b1e28] p-5 font-fira-code font-medium text-[#a6accd] selection:bg-slate-500/30"
+                            class="whitespace-pre rounded-bl-lg rounded-br-lg bg-[#1b1e28] p-5 font-fira-code font-medium text-[#a6accd] selection:bg-slate-500/30 overflow-x-auto"
                         >class <span class="text-sky-300">State</span> <span class="text-teal-400">extends</span> <span class="text-sky-300">Model</span>
 {
     <span class="text-teal-400">use</span> \Sushi\<span class="text-sky-300">Sushi</span>;
