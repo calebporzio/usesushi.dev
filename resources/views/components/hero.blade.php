@@ -41,11 +41,10 @@
             <strong>Eloquent’s</strong>
             <span>missing</span>
             <strong>“array”</strong>
-            <span>driver.</span>
+            <span>driver</span>
         </header>
         <div class="pt-5 text-lg font-medium text-shark sm:text-xl">
-            Sometimes you want to use Eloquent, but without dealing with a
-            database.
+            Sometimes you just want to use Laravel Eloquent without a database.
         </div>
     </div>
 

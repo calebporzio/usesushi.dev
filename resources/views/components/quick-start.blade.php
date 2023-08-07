@@ -14,11 +14,8 @@
     "
     class="relative mx-auto w-full max-w-2xl px-5 pt-36"
 >
-    {{-- Header --}}
-    <div class="text-center text-3xl font-bold">Quick Start</div>
-
     {{-- Steps --}}
-    <div class="space-y-5 pt-14">
+    <div class="space-y-5">
         {{-- Step 1 --}}
         <div>
             <div class="flex items-center gap-5 font-semibold">

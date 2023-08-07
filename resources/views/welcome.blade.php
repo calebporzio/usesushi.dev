@@ -79,7 +79,7 @@
         />
         <meta
             property="og:description"
-            content="Sometimes you want to use Eloquent, but without dealing with a database."
+            content="Sometimes you just want to use Eloquent without a database."
         />
         <meta
             property="og:image"
