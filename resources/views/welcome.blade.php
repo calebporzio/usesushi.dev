@@ -83,11 +83,39 @@
         />
         <meta
             property="og:image"
-            content="/sushi-opengraph.png"
+            content="https://usesushi.dev/sushi-opengraph.png"
         />
         <meta
             property="og:locale"
             content="en"
+        />
+        <meta
+            property="og:url"
+            content="https://usesushi.dev"
+        />
+        <meta
+            name="twitter:card"
+            content="summary_large_image"
+        />
+        <meta
+            name="twitter:image"
+            content="https://usesushi.dev/sushi-opengraph.png"
+        />
+        <meta
+            name="twitter:site"
+            content="@calebporzio"
+        />
+        <meta
+            name="twitter:creator"
+            content="@calebporzio"
+        />
+        <meta
+            name="twitter:title"
+            content="Eloquent’s missing “array” driver."
+        />
+        <meta
+            name="twitter:description"
+            content="Sometimes you just want to use Eloquent without a database."
         />
 
         {{-- Vite --}}
