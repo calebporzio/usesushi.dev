@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <!-- Fathom - beautiful, simple website analytics -->
+        <script src="https://cdn.usefathom.com/script.js" data-site="TCLQKKKS" defer></script>
+        <!-- / Fathom -->
+
         <meta
             http-equiv="Content-Security-Policy"
             content="upgrade-insecure-requests"
